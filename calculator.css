@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(to left ,blue,red);
+}
+.calculator{
+    width: 360px;
+    height: 600px;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 70px;
+    border-radius: 5px;
+box-shadow: 0 5px 10px red,0 5px 10px rgb(30, 6, 243);
+padding: 16px;
+display: grid;
+grid-template-columns: repeat(4,80px);
+}
+input{
+    grid-column: span 4;
+    height: 100px;
+    width: 320px;
+    border: none;
+    text-align: end;
+    margin: 20px 0px 0px;
+   padding: 5px;
+    font-size: 40px;
+}
+button{
+    width: 70px;
+    height:70px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 25px;
+    background-color: rgb(230, 198, 198);
+    box-shadow: 0 10px 10px blue;/* inset 0px 0px 5px  red*/
+    font-size: 20px;
+ font-weight: bold;
+}
+.clr{
+    background-color: rgb(229, 104, 104);
+}
+.del{
+    background-color: rgb(226, 198, 15);
+}
+.mod{
+    background-color: rgb(93, 232, 19);
+}
+.div{
+    background-color: rgb(158, 37, 37);
+}
+.str{
+    background-color: rgb(0, 179, 255);
+}
+.min{
+    background-color: rgb(93, 12, 144);
+}
+.plu{
+    background-color: rgb(199, 22, 119);
+}
+.equal{
+    background-color: rgb(29, 226, 174);
+}
+
+
+
